@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Dating_Site.API/Dating_Site.API.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
